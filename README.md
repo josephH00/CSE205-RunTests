@@ -2,6 +2,7 @@
 Simple Bash script for running the CSE205 assignment test cases
 
 ## Usage
+Clone or download *runTests.sh*
 Make sure to have both the input#.txt and output#.txt files in the same directory as well as the Assignment#.java file.
 Run:
 ```
