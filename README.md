@@ -8,5 +8,5 @@ Run:
 ```
 ./runTests.sh # ##
 ```
-Where # is the assignment number\n
+Where # is the assignment number<br/>
 And ## is the number of cases to test against
