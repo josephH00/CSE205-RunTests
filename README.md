@@ -9,4 +9,4 @@ Run:
 ./runTests.sh # ##
 ```
 Where # is the assignment number<br/>
-And ## is the number of cases to test against
+and ## is the number of cases to test against
