@@ -13,6 +13,7 @@ if [ $# -lt 2 ]
     exit
 fi
 
+rm *.class
 javac Assignment$1.java
 for ((iter = 1 ; iter <= $2 ; iter++));
 do
@@ -20,6 +21,7 @@ do
     myOutFileName="myout${iter}.txt"
     compareFile="output${iter}.txt"
 
+    echo
     echo Test Case $iter:
     java Assignment$1 < $inFileName > $myOutFileName && diff $compareFile $myOutFileName
 done
